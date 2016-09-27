@@ -1,0 +1,3 @@
+username,password,email_id,phone,first_name,last_name,DOB,address1,address2,address3,organization_name,city,user_status
+Datatype: String and Not Null and Not exiting username,Datatype: Sting,Datatype: String and Not Null and Not exiting username,Datatype: numeric and not null,Datatype: numeric and not null,Datatype: numeric and not null,Datatype: Date(MM/DD/YYYY) and not null,Datatype: String,Datatype: String,Datatype: String,Datatype: String,Datatype: String,"Datatype: Numeric (accepted values 1 - active users, 2 – inactive users)"
+andrea@mailinator.com,Andrea_rcni,andrea@mailinator.com,2087628403,Andrea,Rogalski,10/01/1981,Address 1 ,Address 2,Address 3,INTERNATIONAL SOS,,1
