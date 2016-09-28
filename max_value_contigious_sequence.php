@@ -5,7 +5,7 @@
  * for which the sum of elements in the subsequence is maximized.
  */
 
-$s  = [10,11,-3];
+$s  = [10,-9,16,14,-5,-6,-7];
 echo maxSeq($s);//22
 
 /*
@@ -18,9 +18,10 @@ function maxSeq($s) {
       $cur_sum += $s[$i];
       if ($cur_sum > $max_sum) {
           $max_sum = $cur_sum;
-      } else {
+      }
+      
+      if ($cur_sum < 0) {
           $cur_sum = 0;
-         
       }
    } 
    
